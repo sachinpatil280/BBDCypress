@@ -1,0 +1,9 @@
+{
+  "singleItemList": "Get grocery",
+  "multipleItemList": [
+    "Get grocery",
+    "Do laundry",
+    "Make dinner"
+  ],
+  "updatedValue": "Do assignment"
+}

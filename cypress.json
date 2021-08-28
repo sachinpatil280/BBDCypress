@@ -1,0 +1,10 @@
+{
+    "defaultCommandTimeout": 9000,
+    "pageLoadTimeout": 10000,
+    "env": {
+        "url": "https://todomvc.com/examples/react/#/"
+    },
+    "testFiles": "**/*.feature",
+    "requestTimeout": 10000,
+    "responseTimeout": 30000
+}
