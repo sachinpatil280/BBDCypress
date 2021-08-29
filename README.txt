@@ -8,15 +8,15 @@ Instructions to run the automation:
 2) Install node
 	node --version
 	v14.16.1
-3) Unzip the folder
-4) Traverse inside the folder Automation
-5) Install the dependencies by following command
+3) Traverse inside the folder Gelato
+4) Install the dependencies by following command:
 	npm install
-6) Once the dependencies are installed run the tests
+5) Once the dependencies are installed, run the tests using below command:
 	npm run test
+6) From root folder location, run below command to generate report:
+	node cypress/cucumber-html-report.js 
 7) Results can be checked at report location
-	.\cypress\mochawesome-report\mochawesome.html
-
+	.\cypress\report\index.html
 ========================================================================
 
 The automation uses cypress tool. Test cases are written in JavaScript with Mocha framework and Chai assertions

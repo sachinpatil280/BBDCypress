@@ -6,5 +6,7 @@
     },
     "testFiles": "**/*.feature",
     "requestTimeout": 10000,
-    "responseTimeout": 30000
+    "responseTimeout": 30000,
+    "videoUploadOnPasses": false,
+    "video": false
 }
