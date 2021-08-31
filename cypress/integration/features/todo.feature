@@ -1,4 +1,4 @@
-Feature: End 2 End ToDo App Validation
+Feature: End to End ToDo Application UI Validation
 
 Background: Opening Todo App
 Given I open todo application

@@ -1,14 +1,14 @@
 [
   {
     "keyword": "Feature",
-    "name": "End 2 End ToDo App Validation",
+    "name": "End to End ToDo Application UI Validation",
     "line": 1,
-    "id": "end-2-end-todo-app-validation",
+    "id": "end-to-end-todo-application-ui-validation",
     "tags": [],
     "uri": "todo.feature",
     "elements": [
       {
-        "id": "end-2-end-todo-app-validation;1)-adding-a-simple-task-in-the-todo-list",
+        "id": "end-to-end-todo-application-ui-validation;1)-adding-a-simple-task-in-the-todo-list",
         "keyword": "Scenario",
         "line": 7,
         "name": "1) Adding a simple task in the todo list",
@@ -22,7 +22,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 2464000000
+              "duration": 2824000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I create todo list with \"1\" items",
             "result": {
               "status": "passed",
-              "duration": 1299000000
+              "duration": 398000000
             }
           },
           {
@@ -42,13 +42,13 @@
             "name": "Validate list with \"1\" items are saved",
             "result": {
               "status": "passed",
-              "duration": 151000000
+              "duration": 32000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;2)-adding-multiple-task-in-the-todo-list",
+        "id": "end-to-end-todo-application-ui-validation;2)-adding-multiple-task-in-the-todo-list",
         "keyword": "Scenario",
         "line": 12,
         "name": "2) Adding multiple task in the todo list",
@@ -62,7 +62,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 808000000
+              "duration": 235000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1548000000
+              "duration": 936000000
             }
           },
           {
@@ -82,13 +82,13 @@
             "name": "Validate list with \"multiple\" items are saved",
             "result": {
               "status": "passed",
-              "duration": 172000000
+              "duration": 36000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;3)-removing-task-from-list",
+        "id": "end-to-end-todo-application-ui-validation;3)-removing-task-from-list",
         "keyword": "Scenario",
         "line": 17,
         "name": "3) Removing task from list",
@@ -102,7 +102,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 577000000
+              "duration": 172000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1931000000
+              "duration": 937000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "I remove item from todo list",
             "result": {
               "status": "passed",
-              "duration": 261000000
+              "duration": 105000000
             }
           },
           {
@@ -132,13 +132,13 @@
             "name": "Validate length of saved list is 2",
             "result": {
               "status": "passed",
-              "duration": 64000000
+              "duration": 9000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;4)-marking-a-task-as-completed-in-the-list",
+        "id": "end-to-end-todo-application-ui-validation;4)-marking-a-task-as-completed-in-the-list",
         "keyword": "Scenario",
         "line": 23,
         "name": "4) Marking a task as completed in the list",
@@ -152,7 +152,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 498000000
+              "duration": 162000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1468000000
+              "duration": 942000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 191000000
+              "duration": 92000000
             }
           },
           {
@@ -182,13 +182,13 @@
             "name": "Validate entry is marked completed and check box is checked",
             "result": {
               "status": "passed",
-              "duration": 126000000
+              "duration": 22000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;5)-marking-a-task-as-completed-and-toggle-it-back-as-not-completed",
+        "id": "end-to-end-todo-application-ui-validation;5)-marking-a-task-as-completed-and-toggle-it-back-as-not-completed",
         "keyword": "Scenario",
         "line": 29,
         "name": "5) Marking a task as completed and toggle it back as not completed",
@@ -202,7 +202,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 370000000
+              "duration": 203000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "I create todo list with \"1\" items",
             "result": {
               "status": "passed",
-              "duration": 634000000
+              "duration": 468000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 127000000
+              "duration": 93000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Validate entry is marked completed and check box is checked",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 25000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Mark an entry as \"not completed\"",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 100000000
             }
           },
           {
@@ -258,7 +258,7 @@
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;6)-removing-a-task-from-list-that-is-completed",
+        "id": "end-to-end-todo-application-ui-validation;6)-removing-a-task-from-list-that-is-completed",
         "keyword": "Scenario",
         "line": 37,
         "name": "6) Removing a task from list that is completed",
@@ -272,7 +272,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 502000000
+              "duration": 167000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "I create todo list with \"1\" items",
             "result": {
               "status": "passed",
-              "duration": 729000000
+              "duration": 657000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 155000000
+              "duration": 109000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Remove completed entry from list",
             "result": {
               "status": "passed",
-              "duration": 184000000
+              "duration": 107000000
             }
           },
           {
@@ -312,13 +312,13 @@
             "name": "Validate entry is removed from list",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 3000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;7)-clearing-the-completed-task",
+        "id": "end-to-end-todo-application-ui-validation;7)-clearing-the-completed-task",
         "keyword": "Scenario",
         "line": 44,
         "name": "7) Clearing the completed task",
@@ -332,7 +332,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 503000000
+              "duration": 338000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1620000000
+              "duration": 1067000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 218000000
+              "duration": 92000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "Validate entry is marked completed and check box is checked",
             "result": {
               "status": "passed",
-              "duration": 29000000
+              "duration": 22000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "Remove all completed task by clicking on Clear completed button",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 94000000
             }
           },
           {
@@ -382,13 +382,13 @@
             "name": "Validate completed tasks are removed",
             "result": {
               "status": "passed",
-              "duration": 75000000
+              "duration": 13000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;8)-negative-:-no-tasks-present-in-list-when-page-loads",
+        "id": "end-to-end-todo-application-ui-validation;8)-negative-:-no-tasks-present-in-list-when-page-loads",
         "keyword": "Scenario",
         "line": 53,
         "name": "8) Negative : No tasks present in list when page loads",
@@ -402,7 +402,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 304000000
+              "duration": 381000000
             }
           },
           {
@@ -412,13 +412,13 @@
             "name": "\"ToDo\" list should be empty",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 10000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;9)-negative-:-no-task-is-completed-when-page-loads",
+        "id": "end-to-end-todo-application-ui-validation;9)-negative-:-no-task-is-completed-when-page-loads",
         "keyword": "Scenario",
         "line": 58,
         "name": "9) Negative : No task is completed when page loads",
@@ -432,7 +432,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 467000000
+              "duration": 194000000
             }
           },
           {
@@ -442,13 +442,13 @@
             "name": "\"Completed\" list should be empty",
             "result": {
               "status": "passed",
-              "duration": 23000000
+              "duration": 4000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;10)-negative-:-no-task-is-completed-before-it-is-marked-as-completed",
+        "id": "end-to-end-todo-application-ui-validation;10)-negative-:-no-task-is-completed-before-it-is-marked-as-completed",
         "keyword": "Scenario",
         "line": 62,
         "name": "10) Negative : No task is completed before it is marked as completed",
@@ -462,7 +462,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 521000000
+              "duration": 312000000
             }
           },
           {
@@ -472,7 +472,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1672000000
+              "duration": 971000000
             }
           },
           {
@@ -482,13 +482,13 @@
             "name": "\"Completed\" list should be empty",
             "result": {
               "status": "passed",
-              "duration": 24000000
+              "duration": 3000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;11)-verifying-the-number-of-items-left-after-few-are-completed",
+        "id": "end-to-end-todo-application-ui-validation;11)-verifying-the-number-of-items-left-after-few-are-completed",
         "keyword": "Scenario",
         "line": 67,
         "name": "11) Verifying the number of items left after few are completed",
@@ -502,7 +502,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 373000000
+              "duration": 512000000
             }
           },
           {
@@ -512,7 +512,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1479000000
+              "duration": 812000000
             }
           },
           {
@@ -522,7 +522,7 @@
             "name": "Validate length of list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 50000000
+              "duration": 6000000
             }
           },
           {
@@ -532,7 +532,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 171000000
+              "duration": 89000000
             }
           },
           {
@@ -542,7 +542,7 @@
             "name": "Validate entry is marked completed and check box is checked",
             "result": {
               "status": "passed",
-              "duration": 86000000
+              "duration": 16000000
             }
           },
           {
@@ -552,13 +552,13 @@
             "name": "Validate number of items",
             "result": {
               "status": "passed",
-              "duration": 27000000
+              "duration": 6000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;12)-edit-the-task-and-verify-the-update",
+        "id": "end-to-end-todo-application-ui-validation;12)-edit-the-task-and-verify-the-update",
         "keyword": "Scenario",
         "line": 75,
         "name": "12) Edit the task and verify the update",
@@ -572,7 +572,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 574000000
+              "duration": 161000000
             }
           },
           {
@@ -582,7 +582,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1757000000
+              "duration": 920000000
             }
           },
           {
@@ -592,7 +592,7 @@
             "name": "I double click on the entry to update",
             "result": {
               "status": "passed",
-              "duration": 217000000
+              "duration": 95000000
             }
           },
           {
@@ -602,7 +602,7 @@
             "name": "I update the title of task",
             "result": {
               "status": "passed",
-              "duration": 582000000
+              "duration": 444000000
             }
           },
           {
@@ -612,13 +612,13 @@
             "name": "Validate updated entry",
             "result": {
               "status": "passed",
-              "duration": 55000000
+              "duration": 11000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;13)-edit-the-completed-task-and-verify-the-update",
+        "id": "end-to-end-todo-application-ui-validation;13)-edit-the-completed-task-and-verify-the-update",
         "keyword": "Scenario",
         "line": 82,
         "name": "13) Edit the completed task and verify the update",
@@ -632,7 +632,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 516000000
+              "duration": 205000000
             }
           },
           {
@@ -642,7 +642,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1752000000
+              "duration": 955000000
             }
           },
           {
@@ -652,7 +652,7 @@
             "name": "Mark an entry as \"completed\"",
             "result": {
               "status": "passed",
-              "duration": 159000000
+              "duration": 95000000
             }
           },
           {
@@ -662,7 +662,7 @@
             "name": "Validate entry is marked completed and check box is checked",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 23000000
             }
           },
           {
@@ -672,7 +672,7 @@
             "name": "I click on Completed Link",
             "result": {
               "status": "passed",
-              "duration": 175000000
+              "duration": 84000000
             }
           },
           {
@@ -682,7 +682,7 @@
             "name": "I double click on the entry to update",
             "result": {
               "status": "passed",
-              "duration": 187000000
+              "duration": 94000000
             }
           },
           {
@@ -692,7 +692,7 @@
             "name": "I update the title of task",
             "result": {
               "status": "passed",
-              "duration": 760000000
+              "duration": 462000000
             }
           },
           {
@@ -702,13 +702,13 @@
             "name": "Validate updated entry",
             "result": {
               "status": "passed",
-              "duration": 52000000
+              "duration": 14000000
             }
           }
         ]
       },
       {
-        "id": "end-2-end-todo-app-validation;14)-edit-the-task,-try-to-clear-the-text-and-press-esc-button",
+        "id": "end-to-end-todo-application-ui-validation;14)-edit-the-task,-try-to-clear-the-text-and-press-esc-button",
         "keyword": "Scenario",
         "line": 92,
         "name": "14) Edit the task, try to clear the text and press Esc button",
@@ -722,7 +722,7 @@
             "name": "I open todo application",
             "result": {
               "status": "passed",
-              "duration": 553000000
+              "duration": 396000000
             }
           },
           {
@@ -732,7 +732,7 @@
             "name": "I create todo list with \"multiple\" items",
             "result": {
               "status": "passed",
-              "duration": 1498000000
+              "duration": 939000000
             }
           },
           {
@@ -742,7 +742,7 @@
             "name": "I double click on the entry to update",
             "result": {
               "status": "passed",
-              "duration": 188000000
+              "duration": 92000000
             }
           },
           {
@@ -752,7 +752,7 @@
             "name": "I clear the selected entry",
             "result": {
               "status": "passed",
-              "duration": 181000000
+              "duration": 111000000
             }
           },
           {
@@ -762,7 +762,7 @@
             "name": "I press \"Esc\" button",
             "result": {
               "status": "passed",
-              "duration": 168000000
+              "duration": 98000000
             }
           },
           {
@@ -772,7 +772,7 @@
             "name": "Validate list with \"multiple\" items are saved",
             "result": {
               "status": "passed",
-              "duration": 128000000
+              "duration": 24000000
             }
           }
         ]

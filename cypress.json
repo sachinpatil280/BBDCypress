@@ -2,7 +2,8 @@
     "defaultCommandTimeout": 9000,
     "pageLoadTimeout": 10000,
     "env": {
-        "url": "https://todomvc.com/examples/react/#/"
+        "url": "https://todomvc.com/examples/react/#/",
+        "api_url": "https://jsonplaceholder.typicode.com/todos"
     },
     "testFiles": "**/*.feature",
     "requestTimeout": 10000,

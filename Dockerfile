@@ -11,6 +11,8 @@ COPY ./package-lock.json .
 COPY ./cypress ./cypress
 # Install cypress dependencies in work directory
 RUN npm ci
+# check if the binary was installed successfully
+RUN $(npm bin)/cypress verify
 # Execute the commands the container will use [Exec From]
 ENTRYPOINT [ "npx", "cypress", "run" ]
 # With CMD in this case, we can specify more parameters to the last entrypoint
