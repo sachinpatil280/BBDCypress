@@ -9,14 +9,14 @@ Tool uses multiple-cucumber-html-reporter tool for generating report.
 
 ## Installation
 
-```bash
+```
 ## install all dependencies from the root directory
 npm install
 ```
 
 ## Opening Cypress GUI
 
-```bash
+```
 # Open Cypress GUI
 npm run cypress:open
 ```
@@ -35,11 +35,30 @@ See scripts in `package.json` to run the tests.
 ## Report Generation
 Run below command from `root folder` to generate Cucumber-HTML report.
 
-```bash
+```
 node cypress/cucumber-html-report.js
 ```
 
-Reports are generate at below location
+Reports are generated at below location
 ```
 .\cypress\report\index.html
+```
+
+
+## Creating Docker Image using `Dockerfile` from root directory and Running Docker Tests 
+For creating docker image, use below command: 
+```
+docker build -t gelato_test:1.0.0 .
+```
+
+To run tests from created docker image, use below command:
+
+For Windows:
+```
+docker run -i -v “%cd%”:/gelato -t gelato_test:1.0.0
+```
+
+For Linux:
+```
+docker run -i -v “$PWD”:/gelato -t gelato_test:1.0.0
 ```
